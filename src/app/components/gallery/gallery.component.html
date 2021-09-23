@@ -1,0 +1,15 @@
+<div class="container home-container">
+    <h2>Image Gallery</h2>
+    <div class="row">
+      <div class="col-md-3" *ngFor="let i of images">
+        <div class="thumbnail">
+          <a href="javascript:viod(0)">
+            <img src="{{i.image}}" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>{{i.caption}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>

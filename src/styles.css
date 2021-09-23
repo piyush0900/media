@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.fixed-footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:rgba(255,255,255,.55);
+}
+
+.home{
+    color: #7e868e;
+    line-height: 26px;
+}
+.home-container{
+    margin-top: 30px;
+    background-color:#F8FCFD;
+}
+.light-blue-backdrop {
+    background-color: #255c8a !important;
+  }

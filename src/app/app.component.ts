@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practical';
+  public scrollbarOption =  {
+    axis: 'y',
+    scrollButtons: { enable: true },
+    advanced: {
+        autoScrollOnFocus: false,
+    },};
 }
